@@ -120,6 +120,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   log_debug("Starting...\n");
+  log_debug("Test_Vitek");
   board_tpx2_set_pwr_en2v5(TPXA, 1);			// TURN ON 2V5 PWR for tpx
   Delay(100);
   HAL_GPIO_WritePin(LED_port, LED_pin, GPIO_PIN_RESET);
